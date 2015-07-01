@@ -1,0 +1,115 @@
+body{
+	background-image:url(../images/background.jpg);
+	font-family: "Î¢ÈíÑÅºÚ";
+	font-size: 22px;
+}
+h1{
+	font-family: "Times New Roman", Times, serif;
+	color:#999999
+}
+h2{
+	background-color:#FFCCCC;
+	font-family:"Î¢ÈíÑÅºÚ";
+	font-size:18px;
+}
+textarea{
+	font-family: "Î¢ÈíÑÅºÚ";
+	font-size: 22px;
+}
+a{
+	font-family:"Ó×Ô²";
+	font-size:22px;
+	color:#000000;
+}
+a:link{
+	font-family: "Ó×Ô²";
+	font-size: 16px;
+	color: #3399CC;
+	text-decoration: underline;
+}
+a:visited{
+	font-family: "Ó×Ô²";
+	font-size: 16px;
+	color: #0099FF;
+	text-decoration: blink;
+}
+
+table.hometable{
+	width: 210px;
+	border-right-style: dashed;
+	border-right-color: #999999;
+	border-left-style: dashed;
+	border-left-color: #999999;
+}
+table.statustable{
+    font-family:"Î¢ÈíÑÅºÚ";
+	font-size:16px;
+	width: 450px;
+	border-right-color: #999999;
+	border-right-style: dashed;	
+}
+table.statustable tr{
+	height: 200px;
+}
+table.statustable td{
+	
+	border-bottom-style: dashed;
+	border-bottom-width: medium;
+	border-bottom-color: #999999;	
+	
+}
+table.sidebar{
+	width: 300px;
+	border-right-style: dashed;
+	border-right-color: #999999;
+}
+table.sidebar tr{
+	
+
+}
+table.sidebar td{
+	
+}
+table.phototype{
+	height:750px;
+	width: 750px;
+	border:dashed;
+	border-color:#999999;
+}
+table.textarea{
+	height: 150px;
+	width: 550px;
+}
+table.photo{
+	background-position: top;
+	left: 220px;
+	top: 500px;
+	border-top-style: dashed;
+	border-right-style: dashed;
+	border-bottom-style: dashed;
+	border-left-style: dashed;
+}
+table.focus{
+	border-top-style: dashed;
+	border-right-style: dashed;
+	border-bottom-style: dashed;
+	border-left-style: dashed;
+	width: 700px;
+}
+table.fans{
+	width: 700px;
+	border-top-style: dashed;
+	border-right-style: dashed;
+	border-bottom-style: dashed;
+	border-left-style: dashed;
+	height: 100px;
+}
+img{
+	margin:0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+	display: inline;
+	border:none;
+}

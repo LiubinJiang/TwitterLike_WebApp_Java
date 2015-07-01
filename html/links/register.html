@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>login.html</title>
+<link href="../../css/text.css" rel="stylesheet" type="text/css" />
+<script language="javascript" src="../../js/formValidate.js"></script>
+</head>
+
+<body>
+  <center>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p><img  src="../../images/welcomelogo.png" width="370" height="100" /></p>
+带*处一定要填写哦
+  <table border="1" >
+   <form action="../homepage.html" method="post" onsubmit="return check(this)">
+	<tr>
+      <td>昵称*</td>
+      <td><input type="text" name="name"/></td>
+    </tr>
+    <tr>
+      <td>密码*</td>
+      <td><input type="password" name="passwd" /></td>
+    </tr>
+	<tr>
+		<td>再写一遍密码*</td>
+		<td><input type="password" name="repasswd" /></td>
+	</tr>
+	<tr>
+      <td>邮箱*</td>
+      <td><input type="text" name="mailbox"/></td>
+    </tr>
+	<tr>
+		<td colspan="2"><input type="submit" value="提交" /></td>
+	</tr>
+	</form>
+  </table>
+
+<p><a href="../homepage.html"><img src="../../images/rsubmit.jpg" border="0" /></a></p>
+</center>
+</body>
+</html>
